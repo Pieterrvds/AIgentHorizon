@@ -185,11 +185,13 @@
                         <div class="space-y-4">
                             <div>
                                 <p class="text-sm text-gray-400 mb-1">DEMO PHONE NUMBER</p>
-                                <p class="text-xl font-mono bg-orange-900/30 p-3 rounded-lg inline-block">+1 (555) 123-4567</p>
+                                <p class="text-xl font-mono bg-orange-900/30 p-3 rounded-lg inline-block">+32 800 728 52</p>
                             </div>
+                            <a href="tel:+3280072852" class="w-full block">
                             <button id="simulate-btn" class="w-full bg-gradient-to-r from-orange-600 to-red-500 hover:from-orange-700 hover:to-red-600 text-white py-4 rounded-lg text-lg font-medium transition duration-300 flex items-center justify-center">
                                 <i data-feather="phone" class="w-5 h-5 mr-2"></i> Simulate Phone Call
                             </button>
+                        </a>
                         </div>
                     </div>
                     <div class="hidden md:block">
@@ -248,8 +250,8 @@
                     <h3 class="text-2xl font-bold mb-2">Standard Plan</h3>
                     <p class="text-gray-300 mb-6">For most roofing businesses</p>
                     <div class="mb-8">
-                        <span class="text-5xl font-bold">€350</span>
-                        <span class="text-gray-300">setup + €300/month</span>
+                        <span class="text-5xl font-bold">€300</span>
+                        <span class="text-gray-300">setup + €150/month</span>
                     </div>
                     <ul class="space-y-3 mb-8">
                         <li class="flex items-start">
@@ -287,8 +289,8 @@
                         <span class="bg-red-500 text-white text-xs font-bold px-3 py-1 rounded-full">BEST VALUE</span>
                     </div>
                     <div class="mb-8 mt-4">
-                        <span class="text-5xl font-bold">€750</span>
-                        <span class="text-gray-300">setup + €500/month</span>
+                        <span class="text-5xl font-bold">€450</span>
+                        <span class="text-gray-300">setup + €300/month</span>
                     </div>
                     <ul class="space-y-3 mb-8">
                         <li class="flex items-start">
@@ -398,11 +400,6 @@
             } else {
                 mobileMenu.classList.add('hidden');
             }
-        });
-
-        // Demo simulation button
-        document.getElementById('simulate-btn').addEventListener('click', function() {
-            alert("Simulating ROOFY.AI call experience...\n\nROOFY.AI: Hello! Thank you for calling [Your Roofing Company]. I'm ROOFY, your AI assistant. Are you calling about an emergency repair, scheduled maintenance, or a new roof installation?");
         });
 
         // Feather icons replacement
